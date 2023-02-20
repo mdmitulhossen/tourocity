@@ -34,7 +34,7 @@ const Navbar2 = () => {
     };
 
     return (
-        <div className="shadow-md w-full fixed top-0 left-0 font-medium text-white">
+        <div className="shadow-md w-full fixed top-0 left-0 font-medium text-white z-[999]">
 
             <div className="lg:flex bg-[#162B32] items-center justify-between py-4 lg:px-10 px-7 ">
                 <div className="font-blod text-2xl cursor-pointer flex items-center ">
@@ -107,7 +107,7 @@ const Navbar2 = () => {
                         </span>
                         <div
                             className={`w-[90%] cursor-pointer ${dropDawnDest ? "opacity-100 block" : "opacity-0 hidden"
-                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[55px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500`}
+                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[70px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500  lg:border-b-4 lg:border-[#FA4738]`}
                         >
                             <li className="ml-3 hover:bg-[#FA4738] hover:text-white duration-500 py-2 lg:ml-0 lg:py-2 lg:pl-5">
                                 <span className="inline-block w-[8px] h-[8px]  rounded-[50%] bg-[#FA4738] mr-2 lg:hidden"></span>
@@ -134,7 +134,7 @@ const Navbar2 = () => {
                         </span>
                         <div
                             className={`w-[90%] cursor-pointer ${dropDawnPackage ? "opacity-100 block" : "opacity-0 hidden"
-                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[55px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500`}
+                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[70px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500 lg:border-b-4 lg:border-[#FA4738]`}
                         >
                             <li className="ml-3 py-2 hover:bg-[#FA4738] hover:text-white duration-500 lg:ml-0 lg:py-2 lg:pl-5">
                                 <span className="inline-block w-[8px] h-[8px]  rounded-[50%] bg-[#FA4738] mr-2 lg:hidden"></span>
@@ -161,7 +161,7 @@ const Navbar2 = () => {
                         </span>
                         <div
                             className={`w-[90%] cursor-pointer ${dropDawnBlog ? "opacity-100 block" : "opacity-0 hidden"
-                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[55px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500`}
+                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[70px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500 lg:border-b-4 lg:border-[#FA4738]`}
                         >
                             <li className="ml-3 py-2 hover:bg-[#FA4738] hover:text-white duration-500 lg:ml-0 lg:py-2 lg:pl-5">
                                 <span className="inline-block w-[8px] h-[8px]  rounded-[50%] bg-[#FA4738] mr-2 lg:hidden"></span>
@@ -188,7 +188,7 @@ const Navbar2 = () => {
                         </span>
                         <div
                             className={`w-[90%] cursor-pointer ${dropDawnPage ? "opacity-100 block" : "opacity-0 hidden"
-                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[55px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500`}
+                                } lg:opacity-0 group-hover:opacity-100 lg:absolute lg:bg-slate-800 lg:w-[230px] lg:top-[70px] opacity-0 mt-2 mb-[-10px] transition-all ease-in-out duration-500 lg:border-b-4 lg:border-[#FA4738]`}
                         >
                             <li className="ml-3 py-2 hover:bg-[#FA4738] hover:text-white duration-500 lg:ml-0 lg:py-2 lg:pl-5">
                                 <span className="inline-block w-[8px] h-[8px]  rounded-[50%] bg-[#FA4738] mr-2 lg:hidden"></span>

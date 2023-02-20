@@ -1,0 +1,282 @@
+.hero{
+    width: 100%;
+    height: 100%;
+    background: antiquewhite url('../assets/hero2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-wrap{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.797);
+    animation: left_hero 15s linear infinite;
+}
+.slider1{
+    animation: slide1 12s linear infinite;    
+}
+.slider2{
+    animation: slide2 12s linear infinite;
+}
+.hero_stroke{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+/* lg_hero_slider animation */
+.lg_hero_s1{
+    animation: hero_s1 12s linear infinite;
+}
+.lg_hero_s2{
+    animation: hero_s2 12s linear infinite;
+}
+.lg_hero_s3{
+    animation: hero_s3 12s linear infinite;
+}
+
+/* lg_hero_slider animation */
+@keyframes hero_s1{
+    0%{
+        visibility: visible;
+    }
+    20%{
+        visibility: visible;
+        width: 100%;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes hero_s2{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: visible;
+    }
+    60%{
+        visibility: visible;
+        width: 100%;  
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes hero_s3{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+        
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: visible;
+    }
+    100%{
+        visibility: visible;
+        width: 100%;
+    }
+}
+
+
+/* slider animation */
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    20%{
+        visibility: visible;
+    }
+    40%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: hidden;
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+       
+    }
+    60%{
+        visibility: visible;
+        
+    }
+    80%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+/* //animation */
+.hero_animate{
+    animation: hero;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes hero{
+    0%{
+        top: 250px;
+        opacity: 0;
+    }
+    
+    100%{
+       top: 150px;
+    }
+}
+.hero_btn_animate{
+    animation: Btn;
+    animation-duration: 6s;
+    animation-delay: 200ms;
+    animation-iteration-count: infinite;
+}
+@keyframes Btn{
+    0%{
+        top: 500px;
+        
+    }
+    
+    100%{
+       top: 420px;
+    }
+}
+.hero_details_animate{
+    animation: details;
+    animation-duration: 300ms;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes details{
+    0%{
+        top: 330px;
+    }
+    
+    100%{
+       top: 350px;
+    }
+}
+
+
+
+/* slider_counter */
+.image_text{
+    background: url(../assets/hero1.jpg);
+    color: rgba(0, 0, 0, 0.679);
+    -webkit-background-clip: text;
+}
+
+.image_text-animate1{
+    animation: img_text 12s linear infinite ;
+}
+.image_text-animate2{
+    animation: img_text2 12s linear infinite ;
+}
+.image_text-animate3{
+    animation: img_text3 12s linear infinite ;
+}
+
+@keyframes img_text{
+    0%{
+        visibility: visible;
+    }
+    20%{
+        visibility: hidden;
+    }
+ 
+    40%{
+        visibility: hidden;
+       
+    }
+    60%{
+        visibility: hidden;
+        
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes img_text2{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: visible;
+       
+    }
+    60%{
+        visibility: hidden;
+        
+    }
+    80%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes img_text3{
+    0%{
+        visibility: hidden;
+    }
+    20%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+       
+    }
+    60%{
+        visibility: hidden;
+        
+    }
+    80%{
+        visibility: visible;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+
