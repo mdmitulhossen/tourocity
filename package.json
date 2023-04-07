@@ -24,5 +24,18 @@
     "tailwind-scrollbar": "^2.1.0",
     "tailwindcss": "^3.2.6",
     "vite": "^4.1.0"
-  }
+  },
+  "description": "",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmitulhossen/tourocity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdmitulhossen/tourocity/issues"
+  },
+  "homepage": "https://github.com/mdmitulhossen/tourocity#readme"
 }
