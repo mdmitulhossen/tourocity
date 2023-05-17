@@ -7,7 +7,7 @@ const App = () => {
     return (
         <div className='w-screen h-screen font-["Gentium Book Plus"] bg-[#F5F6F7]'>
             <Navbar2 />
-            <div>
+            <div className='w-100'>
                 <HomeSection/>
             </div>
 
