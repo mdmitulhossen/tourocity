@@ -9,6 +9,8 @@ import TravelReview from '../TravelerReview/TravelReview';
 import TourGuide from '../TourGuide/TourGuide';
 import BlogCard from '../Card/BlogCard';
 import Blog from '../Blog/Blog';
+import Footer from '../Footer/Footer';
+
 
 
 const HomeSection = () => {
@@ -23,7 +25,7 @@ const HomeSection = () => {
             <TravelReview/>
             <TourGuide/>
             <Blog/>
-            <Offer/>
+            <Footer/>
         </div>
     );
 };
