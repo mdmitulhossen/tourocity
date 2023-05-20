@@ -3,6 +3,12 @@ import HeroSlider from '../HeroSlider/HeroSlider';
 import FindSection from '../Find_Section/FindSection';
 import PAdvanture from '../P AdvantureSection/PAdvanture';
 import TopDestinate from '../Top Destination/TopDestinate';
+import UpcomingSection from '../UpcomingSectrion/UpcomingSection';
+import Offer from '../Offer/Offer';
+import TravelReview from '../TravelerReview/TravelReview';
+import TourGuide from '../TourGuide/TourGuide';
+import BlogCard from '../Card/BlogCard';
+import Blog from '../Blog/Blog';
 
 
 const HomeSection = () => {
@@ -12,6 +18,12 @@ const HomeSection = () => {
             <FindSection/>
             <PAdvanture/>
             <TopDestinate/>
+            <UpcomingSection/>
+            <Offer/>
+            <TravelReview/>
+            <TourGuide/>
+            <Blog/>
+            <Offer/>
         </div>
     );
 };
