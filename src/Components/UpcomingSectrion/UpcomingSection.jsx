@@ -38,7 +38,7 @@ const UpcomingSection = () => {
                                     slidesPerView: 3,
                                     spaceBetween: 200,
                                 },
-                                "@1.00": {
+                                "@1.25": {
                                     slidesPerView: 3,
                                     spaceBetween: 300,
                                 },

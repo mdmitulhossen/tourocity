@@ -7,7 +7,6 @@ import UpcomingSection from '../UpcomingSectrion/UpcomingSection';
 import Offer from '../Offer/Offer';
 import TravelReview from '../TravelerReview/TravelReview';
 import TourGuide from '../TourGuide/TourGuide';
-import BlogCard from '../Card/BlogCard';
 import Blog from '../Blog/Blog';
 import Footer from '../Footer/Footer';
 

@@ -1,0 +1,23 @@
+/*==== about Company ====*/
+.exActive {
+  background: white;
+  /* border: 2px solid red; */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: #fa4738;
+}
+
+/* Style the buttons */
+.btn1 {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active1, .btn1:hover {
+  background-color: #666;
+  color: white;
+}

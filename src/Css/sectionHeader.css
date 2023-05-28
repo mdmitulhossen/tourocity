@@ -1,0 +1,7 @@
+.parent{
+    background: red url("../assets/allsectionHeaderBg.png") no-repeat fixed ;
+    background-clip: border-box;
+    background-size: auto;
+    height: 300px;
+    width: 100%;
+}
