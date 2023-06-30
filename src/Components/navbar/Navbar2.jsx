@@ -116,7 +116,7 @@ const Navbar2 = () => {
 
                             <li className="ml-3 py-2 hover:bg-[#FA4738] hover:text-white duration-500 lg:ml-0 lg:py-2 lg:pl-5">
                                 <span className="inline-block w-[8px] h-[8px]  rounded-[50%] bg-[#FA4738] mr-2 lg:hidden"></span>
-                                <a href="/destinationDetails">Destination Details</a>
+                                <a href="/destination/details">Destination Details</a>
                             </li>
                         </div>
                     </li>
@@ -138,12 +138,12 @@ const Navbar2 = () => {
                         >
                             <li className="ml-3 py-2 hover:bg-[#FA4738] hover:text-white duration-500 lg:ml-0 lg:py-2 lg:pl-5">
                                 <span className="inline-block w-[8px] h-[8px]  rounded-[50%] bg-[#FA4738] mr-2 lg:hidden"></span>
-                                <a href="/destination">Package</a>{" "}
+                                <a href="/package">Package</a>{" "}
                             </li>
 
                             <li className="ml-3 py-2 hover:bg-[#FA4738] hover:text-white duration-500 lg:ml-0 lg:py-2 lg:pl-5">
                                 <span className="inline-block w-[8px] h-[8px]  rounded-[50%] bg-[#FA4738] mr-2 lg:hidden"></span>
-                                <a href="/destinationDetails">Package Details</a>
+                                <a href="/package/details">Package Details</a>
                             </li>
                         </div>
                     </li>
