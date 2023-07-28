@@ -16,9 +16,9 @@ const Offer = () => {
                 </div>
             </div>
             <div className='space-x-5 mt-8 w-full flex justify-center'>
-               <button className='btn-all rounded-md text-xl px-4 py-2 active'>10%</button>
-               <button className='btn-all rounded-md text-xl px-4 py-2 active'>30%</button>
-               <button className='btn-all rounded-md text-xl px-4 py-2 active'>20%</button>
+               <button className='btn-all rounded-md text-xl px-4 py-2 activeP'>10%</button>
+               <button className='btn-all rounded-md text-xl px-4 py-2 activeP'>30%</button>
+               <button className='btn-all rounded-md text-xl px-4 py-2 activeP'>20%</button>
             </div>
             <div className='flex flex-wrap justify-center gap-10 mt-6'>
                 {
