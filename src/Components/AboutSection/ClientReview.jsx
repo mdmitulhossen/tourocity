@@ -4,23 +4,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "../../Css/upcoming.css"
+import PackageCard from '../Card/PackageCard';
 import Review from '../Card/Review';
 
-const TravelReview = () => {
+const ClientReview = () => {
     return (
         <div className='travelReviewSection overflow-hidden'>
         <div className='UpChild flex justify-center'>
             <div className='w-[85%] mt-24'>
-                <p className='text-4xl text-white font-extrabold '>Travelers Review</p>
+                <p className='text-4xl text-white font-extrabold '>What Our Client Say About Us</p>
                 <p className='text-white font-medium mt-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, unde.</p>
 
           {/*========= carousel============ */}
                 <div className='mt-10 overflow-hidden'>
                     <Swiper
                         slidesPerView={3}
-                         pagination={{
-                            dynamicBullets: true,
-                        }}
+                        
                         breakpoints={{
                             "@0.00": {
                                 slidesPerView: 1,
@@ -75,4 +74,4 @@ const TravelReview = () => {
     );
 };
 
-export default TravelReview;
+export default ClientReview;

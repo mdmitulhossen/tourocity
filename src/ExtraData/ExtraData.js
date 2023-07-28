@@ -36,3 +36,14 @@ export const find=[
         ]
     }
 ]
+
+
+
+// about Section(Our Company)
+export const ourCompany=[
+    'Wheeler & Sons Electric is a family owned and operated business, it began in 1995 by Scott A. Wheeler. Our company is a service based, customer orientated business. We will do our best to make you, the customer, satisfied at all levels of your project Wheeler & Sons Electric is confident that we will provide great service and put forth great effort to fulfill your electrical needs. Anything from putting in a light switch to re-wiring a building, we will do it with ease, in a safe and organized fashion.'
+    ,
+    'Looking to see some incredible sights from the comfort of a train? These tours include both short and long journeys that you can work into vacations to incredible destinations in the USA. Some of these routes may even be available as a part of railroad vacation packages that include excursions and more.'
+    ,
+    'If you want to be able to enjoy the great beauty of the American Southwest without having to do the driving yourself, Amtraks Sunset Limited route may be the perfect choice. It runs from New Orleans to Los Angeles, giving riders the opportunity to glimpse some incredible sunsets over rugged terrain as the train wends its way west.'
+]
